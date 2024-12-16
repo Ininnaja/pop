@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    text-decoration: none;
+}
+html, body{
+  background-color: #e9eae4;
+}
+nav {
+    width: 100%;
+    height: 7vw;
+    background: linear-gradient(180deg, #a4c2a9 30.73%, rgba(164, 194, 169, 0) 100%);
+}
+.nav-container {
+    max-width: 90vw;
+    height: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+.logopop {
+    width: 8vw;
+    object-fit: contain;
+}
+.container {
+    width: 90vw;
+
+    margin: 0 auto;
+    display: flex;
+}
+.intro-Product {
+    width: 50%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+}
+
+.introdurian{
+    width: 100%;
+    height: 26.5vw;
+    object-fit: contain;
+}
+.search {
+    width: 50%;
+    padding: 90px;
+}
+.item--ziM {
+    box-sizing: border-box;
+    padding: 0.3rem 2.325rem 0.4rem 0.6rem;
+    width: 100%;
+    height: 4.4rem;
+    display: flex;
+    align-items: center;
+    background-color: #91ae96;
+    border-radius: 4.5rem;
+}
+.sidebar-search { 
+    padding: 17px;
+    border: 3px solid #91ae96;
+    width: 100%;
+    outline: none;
+    border-radius: 45px;
+    background: #e9eae4;
+    transition: 0.3s;
+    font-size: 18px;
+  }
+  .sidebar-search:focus {
+    border: 2px solid #314a33;
+  }
+  .seatch-button {
+    padding: 10px 20px;
+    background-color: #314a33;
+    color: aliceblue;
+    border-radius: 45px;
+    font-size: 18px;
+    box-shadow: 0 0 6px ;
+    margin-left: 5px;
+  }
+  .product{
+    width: 100%;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+  }
+.product-img{
+    width: 100%;
+    height: 17vw;
+    object-fit: cover;
+    border-radius:35px;
+}
+.name-item {
+    margin-bottom: 0.7rem;
+    font-size: 2.2vW;
+    font-weight: 500;
+    line-height: 1.0402272769;
+    letter-spacing: 0.14rem;
+    color: #000000;
+    font-family: Inter, 'Source Sans Pro';
+    white-space: nowrap;
+    flex-shrink: 0;
+    text-align: center;
+  }
+  .about-this-website-copyright-2030-VDj {
+    padding: 25px;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #000000;
+    font-family: Brygada 1918, 'Source Sans Pro';
+  }
